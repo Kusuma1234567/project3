@@ -1,8 +1,7 @@
-import smtplib
-from email.mime.text import MIMEText
+import streamlit as st
 
-EMAIL = "your_email@gmail.com"
-PASSWORD = "your_app_password"
+EMAIL = st.secrets["EMAIL"]
+PASSWORD = st.secrets["PASSWORD"]
 
 
 # 🔹 Existing function (request status email)
