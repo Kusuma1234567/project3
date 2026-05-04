@@ -1,4 +1,5 @@
 import streamlit as st
+st.title("My App")
 from database import init_db, insert_request, get_all_requests, update_status
 from priority import detect_priority
 from notification import send_email
