@@ -1,5 +1,6 @@
 import streamlit as st
-
+import smtplib
+from email.mime.text import MIMEText
 EMAIL = st.secrets["EMAIL"]
 PASSWORD = st.secrets["PASSWORD"]
 
